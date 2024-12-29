@@ -1,0 +1,57 @@
+{
+    "controller": {
+        "name": "ADB 默认方式"
+    },
+    "gpu": -1,
+    "resource": "国际服（JP）",
+    "task": [
+        {
+            "name": "启动游戏",
+            "option": [
+            ]
+        },
+        {
+            "name": "收取荒原",
+            "option": [
+                {
+                    "name": "魔精收菜",
+                    "value": "No"
+                }
+            ]
+        },
+        {
+            "name": "每日心相（意志解析）",
+            "option": [
+            ]
+        },
+        {
+            "name": "活动刷取",
+            "option": [
+                {
+                    "name": "活动选择",
+                    "value": "活动：复兴乌卢鲁运动会 13 艰难（复刻）"
+                },
+                {
+                    "name": "复现次数",
+                    "value": "x4"
+                },
+                {
+                    "name": "刷完全部体力",
+                    "value": "Yes"
+                },
+                {
+                    "name": "吃全部临期糖",
+                    "value": "Yes"
+                }
+            ]
+        },
+        {
+            "name": "领取奖励",
+            "option": [
+            ]
+        }
+    ],
+    "win32": {
+        "_placeholder": 0
+    }
+}
