@@ -95,7 +95,7 @@ def check_maa_update(echo : typing.Callable = print):
             echo(f"App {pkg['name']} is less than 12 hours old. Skipping...")
             continue
 
-        subprocess.run(["scoop", "update", f"maa/{pkg['name']}"])
+        subprocess.run(["scoop", "update", pkg['name']])
 
     # update scoop path mdate
     os.utime(get_path(), None)
